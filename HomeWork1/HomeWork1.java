@@ -50,7 +50,7 @@ public class HomeWork1 extends PageFactory {
     public void enterRozetka(){
         driver.findElement(By.name("signin")).click();
         driver.findElement(By.name("login")).click();
-        driver.findElement(By.name("login")).sendKeys("galey16@gmail.com");
+        driver.findElement(By.name("login")).sendKeys("hskey16@gmail.com");
         driver.findElement(By.name("password")).click();
         driver.findElement(By.name("password")).sendKeys("ForEpam2018");
         driver.findElement(By.name("auth_submit")).click();
